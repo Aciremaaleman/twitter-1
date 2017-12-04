@@ -9,7 +9,7 @@ section{
 	background-color: white;
 }
 
-.boxText{
+#boxText{
 	font-size: 18px;
 	border: 0px solid #ededed;
 	border-bottom: 1px solid blue;
