@@ -638,9 +638,8 @@ article{
 
 #nt-submit{
 	outline: 3px solid red;
-	position: relative;
 	margin-top: 10px;
-	margin-left: 440px;
+	margin-left: 255px;
 	margin-bottom: 100px;
 	background-color: #1DA1F2;
 	color:#fff;
@@ -653,6 +652,52 @@ article{
 	cursor: pointer;
 
 }
+
+.btn-tw{
+	display: inline-block;
+	margin-left: 20px;
+
+}
+
+.count{	
+	display: inline-block;
+	margin-right: 50px;
+	padding-left: 80px;
+	width: 20px;
+	color: #0174DF;
+	font-size: 22px;
+	font-family: sans-serif;
+}
+
+/*-----tweet---*/
+
+#textBox{
+	padding-left: 50px;
+	width: auto;
+	height: 170px;
+	background-color: white;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-right: 10px;
+}
+
+#boxText{
+	margin-top: 10px;
+	margin-left: 30px;
+	font-size: 18px;
+	border: 0px solid #ededed;
+	border-bottom: 1px solid blue;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	background-color: white;
+	width: 78%;
+	height: 60px;
+	overflow: hidden !important;
+	resize: none;
+}
+
+
+
 
 #charCounter{
 	display: block;
@@ -791,41 +836,5 @@ article{
 	color:#1DA1F2;
 }
 
-/*-----tweet---*/
 
-#textBox{
-	padding-left: 50px;
-	width: auto;
-	height: 170px;
-	background-color: white;
-	margin-top: 2px;
-	margin-bottom: 2px;
-	margin-right: 10px;
-}
-
-#boxText{
-	margin-top: 10px;
-	margin-left: 30px;
-	font-size: 18px;
-	border: 0px solid #ededed;
-	border-bottom: 1px solid blue;
-	padding-bottom: 10px;
-	margin-bottom: 20px;
-	background-color: white;
-	width: 78%;
-	height: 60px;
-	overflow: hidden !important;
-	resize: none;
-}
-
-
-.count{	
-	background-color: red;
-	color: #0174DF;
-	clear: both;
-	float: left;
-	padding: 5px;
-	font-size: 22px;
-	font-family: sans-serif;
-}
 

@@ -8,11 +8,11 @@ boxText.addEventListener("keyup",function(){
 
 
 function counter() {
-    var characters = textArea.value.split('');
+	 var characters = textArea.value.split('');
     counterNumber.innerText = 140 - (characters.length);
-    if (characters.length >= 120 && characters.length < 130) {
+    if (characters.length >= 121 && characters.length < 130) {
         counterNumber.style.color = 'yellow';
-    } else if (characters.length >= 130 && characters.length < 140) {
+    } else if (characters.length >= 131 && characters.length < 140) {
         counterNumber.style.color = 'red';
     } else if (characters.length < 120) {
         counterNumber.style.color = 'black';
@@ -25,8 +25,8 @@ function counter() {
         button.setAttribute('disabled', 'true');
         button.style.backgroundColor = 'grey';
     }
-}
-Fin de la conversación de chat
-Escribe un mensaje...
+//}
+//Fin de la conversación de chat
+//Escribe un mensaje...
 
-Elegir archivos
+//Elegir archivos
